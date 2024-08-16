@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+   background-color: gray;
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(30deg,  #32cd32 0%, #3acbf0 100%);
+}
+
+.container{
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5) ;
+    overflow: hidden;
+}
+
+.header{
+background: linear-gradient(120deg,  #32cd32 0%, #00d167 100%);
+padding: 24px;
+text-align: center;
+color: #FFF;
+}
+
+.form{
+    padding: 18px
+}
+
+.form_contet {
+margin-bottom: 8px;
+padding-bottom: 18px;
+position: relative;
+}
+
+ label {
+    display: inline-block;
+    margin-bottom: 4px;
+} 
+
+ input  {
+   display: block;
+   width: 100%;
+   border-radius: 8px;
+   padding: 8px;
+   border: 2px solid #dfdfdf; 
+
+ }
+  a{
+    position: absolute;
+    
+    font-size: 15px;
+  
+    visibility:hidden ; 
+
+ }
+button{
+    background-color: #00d167;
+    color: #FFF;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0; 
+    font-size: 16px;
+    cursor: pointer; 
+    margin-top: 14px; /* margem de erro */
+    
+}
+
+.form-content.error input{
+    border-color: #ff3b25;
+}
+
+.form-content.error a {
+    color: #ff3b25;
+    visibility: visible;
+}
+
+.button-container  {
+    display: flex;
+    gap: 12px; /* Espaçamento entre os botões */
+    
+}
+
+#logo1{
+    width: 10%;
+    height: 10%;
+    gap: 12px;
+    cursor: pointer;
+     
+ }
+
+ .header {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  
+}
